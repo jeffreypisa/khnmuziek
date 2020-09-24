@@ -1,0 +1,15 @@
+.notification {
+	padding: 10px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+}
+
+@include media-breakpoint-down(xs) {
+	.notification {
+		top: auto;
+		bottom: 0;
+	}
+}

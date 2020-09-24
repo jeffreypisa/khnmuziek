@@ -1,0 +1,19 @@
+body {
+	color: $blue;
+	font-family: 'Open Sans', arial, sans-serif;
+	.border-bottom-red {
+		position: relative;
+		display: inline-block;
+		&:after {
+			border-bottom: 2px solid $red;
+			position: absolute;
+			bottom: -2px; 
+			left: 0;
+			right: 0;
+			content: '';
+		}
+	}
+	h1, h2 {
+		font-weight: 600;
+	}
+}

@@ -1,0 +1,112 @@
+.card {
+	border-radius: 10px;
+	overflow: hidden;
+	border: 0;
+	&.card-main {
+		margin-bottom: 30px;
+		background: url(images/card-main-bg.jpg);
+		background-size: cover;
+		background-position: center center;
+		.card-main-top {
+			min-height: 300px;
+			.select-channel {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				z-index: 2;
+				.card, .btn {
+					border-radius: 0;
+				}
+				ul {
+					padding: 0;
+					margin: 0;
+					li {
+						padding: 0;
+						&:before {
+							display: none;
+						}
+						a {
+							margin: 8px 0;
+							font-weight: bold;
+							display: block;
+						}
+					}
+				}
+			}
+			.audioplayer {
+				font-size: 150px;
+				color: #fff;
+				text-align: center;
+				position: absolute;
+				z-index: 1;
+				top: 50px;
+				left: 0;
+				right: 0;
+				transition: ease-in-out 0.2s;
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+		}
+		.card-main-middle {
+			min-height: 220px;
+			h2 {
+				font-weight: 600;
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		.card-main-bottom {
+			min-height: 100px;
+			i {
+				font-size: 30px;
+			}
+		}
+	}
+	&.card-content {
+		border: 2px solid $red;
+		display: flex;
+    height: calc(100% - 30px);
+    padding-bottom: 30px;
+		.card-main-middle {
+			background: #fff;
+		}
+	}
+}
+
+.card {
+	.card-body {
+		padding: 30px;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.card {
+		&.card-main {
+			.card-main-top {
+				.select-channel {
+					position: absolute;
+					top: 30px;
+					left: 30px;
+					right: 30px;
+					.btn {
+						border-radius: 6px;
+						margin-top: 10px;
+					}
+				}			
+				.audioplayer {
+			    top: 136px;
+			    font-size: 100px;
+				}
+			}
+		}		
+		&.card-main, &.card-content {
+			margin: 0 -15px;
+			border: 0;
+			border-radius: 0;
+		}
+	}
+}

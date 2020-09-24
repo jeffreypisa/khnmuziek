@@ -1,0 +1,28 @@
+ol, ul {
+	padding-left: 20px;
+	list-style: none;
+}
+
+ol {
+	counter-reset: li;
+	li {
+		counter-increment: li;
+		&::before {
+			content: counter(li)'.'; 
+			color: $red;
+		  display: inline-block; 
+		  width: 20px;
+		  margin-left: -20px;
+		}
+	}
+}
+
+ul {
+	li::before {
+		content: "•"; 
+		color: #000;
+		display: inline-block; 
+		width: 20px;
+		margin-left: -20px;
+	}
+}

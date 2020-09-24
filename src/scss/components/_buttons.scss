@@ -1,0 +1,101 @@
+a[href]:not(.btn) {
+	color: $red;
+	&:hover {
+		color: $red;
+	}
+}
+
+.btn {
+	border: 0;
+	border-radius: 6px;
+}
+
+.btn.btn-link {
+	padding: 4px 0;
+	color: $red;
+}
+
+.btn-link.btn-underline {
+	position: relative;
+	display: inline-block;
+	&:after {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    border-radius: 3px;
+    height: 2px;
+    right: 0;
+    background: #fff;
+    content: "";
+		transition: 0.2s ease-in-out;
+	}
+	&:hover {
+		text-decoration: none;
+		&:after {
+			bottom: -4px;
+			opacity: 0.5;
+		}
+	}
+}
+
+.btn.btn-arrow {
+	position: relative;
+	text-align: left;
+	padding-right: 30px;
+	&:before {
+		font-family: "Font Awesome 5 Pro";
+		position: absolute;
+		line-height: normal;
+		top: 50%;
+		transform: translateY(-50%);
+		bottom: 0;
+		right: 10px;
+		content: '\f101';
+		font-weight: 900;
+	}
+}
+
+.btn-link.btn-arrow {
+	position: relative;
+	&:after {
+		font-family: "Font Awesome 5 Pro";
+		font-weight: 300;
+		content: '\f101';
+	}
+}
+
+.btn-primary {
+	@include button-variant($red, darken($red, 7.5%), darken($red, 10%), lighten($red,5%), lighten($red, 10%), darken($red,30%));
+	&.disabled {
+		@include button-variant($lightgrey, darken($lightgrey, 7.5%), darken($lightgrey, 10%), lighten($lightgrey,5%), lighten($lightgrey, 10%), darken($lightgrey,30%));
+		color: $grey;
+	}
+}
+
+.btn-outline-primary {
+	@include button-outline-variant($red, #222222, lighten($red,5%), $red);
+}
+
+.btn-secondary {
+	@include button-variant($lightgrey, darken($lightgrey, 7.5%), darken($lightgrey, 10%), lighten($lightgrey,5%), lighten($lightgrey, 10%), darken($lightgrey,30%));
+	color: $grey;
+}
+
+.btn-group-toggle {
+	.btn.btn-image {
+		background: none !important;
+		padding: 0;
+		margin-right: 20px;
+	}
+	img {
+		opacity: 0.5;
+		height: 50px;
+		width: auto;
+	}
+	.btn.active {
+		@include button-variant($blue, darken($blue, 7.5%), darken($blue, 10%), lighten($blue,5%), lighten($blue, 10%), darken($blue,30%));
+		img {
+			opacity: 1;
+		}
+	}
+}
