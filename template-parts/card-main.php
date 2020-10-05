@@ -17,7 +17,7 @@
 	<div class="card-body card-main-middle bg-white d-flex align-items-center">
 		<div class="w-100">
 	  	<div class="row">
-	    	<div class="col-3 col-md-4 d-flex align-items-center">
+	    	<div class="col-4 d-flex align-items-center">
 		    	<img src="dist/images/horeca_nederland.png" alt="horeca_nederland" width="109" height="134" >
 	    	</div>
 	    	<div class="col d-flex align-items-center">

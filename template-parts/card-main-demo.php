@@ -42,17 +42,19 @@
 		</a>
 	</div>
 	<div class="card-body bg-white card-main-middle d-flex align-items-center">
-  	<div class="row">
-    	<div class="col-3 col-md-4">
-	    	<img src="dist/images/horeca_nederland.png" alt="horeca_nederland" width="109" height="134" >
-    	</div>
-    	<div class="col d-flex align-items-center">
-	    	<div class="info">
-		    	<h5 class="border-bottom-red"> Presenteert: </h5>
-		    	<h2 class="h1 mb-0"> ROADS </h2>
-		    	<h5> Ella </h5>
+		<div class="w-100">
+	  	<div class="row">
+	    	<div class="col-4 d-flex align-items-center">
+		    	<img src="dist/images/horeca_nederland.png" alt="horeca_nederland" width="109" height="134" >
 	    	</div>
-    	</div>
+	    	<div class="col d-flex align-items-center">
+		    	<div class="info">
+			    	<h5 class="border-bottom-red"> Presenteert: </h5>
+			    	<h2 class="h1 mb-0"> ROADS </h2>
+			    	<h5> Ella </h5>
+		    	</div>
+	    	</div>
+	  	</div>
   	</div>
 	</div>
 	<div class="card-body card-main-bottom text-white text-center">
