@@ -82,7 +82,10 @@
 				</div>
 			</div>
 			<p> De eerste betaling is het startpunt van een doorlopende betaalovereenkomst. Kortom, op basis van deze gegevens wordt de periodieke incasso uitgevoerd. </p>
-		  <a href="" class="btn btn-primary btn-arrow disabled"> Naar de betaalmodule </a> <!-- remove class 'disabled' for active state -->
+		  <a href="#" class="btn btn-primary btn-arrow disabled"> Naar de betaalmodule </a> <!-- remove class 'disabled' for active state -->
+		  <div class="clearfix"></div>
+		  <br>
+		  <a href="#" class="btn btn-link"> Problemen met deze stap? </a> | <a href="#" class="btn btn-link"> Ik wil eenmalig betalen </a> 
 		</form>
 	</div>
 </div>

@@ -9,6 +9,6 @@
 			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
 		</ul>
 		
-		<a href="abonnementen.php" class="btn-link btn-link-lg btn-arrow"> Naar abonnementen </a>
+		<a href="abonnementen.php" class="btn btn-link btn-link-lg btn-arrow"> Naar abonnementen </a>
 	</div>
 </div>

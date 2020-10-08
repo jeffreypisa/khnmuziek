@@ -11,7 +11,7 @@ a[href]:not(.btn) {
 }
 
 .btn.btn-link {
-	padding: 4px 0;
+	padding: 6px 0;
 	color: $red;
 }
 
@@ -42,14 +42,14 @@ a[href]:not(.btn) {
 	position: relative;
 	text-align: left;
 	padding-right: 30px;
-	&:before {
+	&:after {
 		font-family: "Font Awesome 5 Pro";
 		position: absolute;
 		line-height: normal;
-		top: 50%;
+		top: 52%;
 		transform: translateY(-50%);
 		bottom: 0;
-		right: 10px;
+		right: 14px;
 		content: '\f101';
 		font-weight: 900;
 	}
@@ -85,7 +85,8 @@ a[href]:not(.btn) {
 	.btn.btn-image {
 		background: none !important;
 		padding: 0;
-		margin-right: 20px;
+		margin-right: 15px;
+		margin-bottom: 15px;
 	}
 	img {
 		opacity: 0.5;

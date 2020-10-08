@@ -20,6 +20,11 @@ ul.mainmenu {
 		&.last:after {
 			display: none;
 		}
+		&.d-sm-none {
+			a[href] {
+				font-size: 14px;
+			}
+		}
 		a[href] {
 			text-transform: uppercase;
 			color: $blue;
@@ -28,6 +33,14 @@ ul.mainmenu {
 			a, a:hover, a[href], a[href]:hover {
 				color: $red;
 			}
+		}
+	}
+	&.show {
+		li.head {
+			margin-bottom: 20px;
+		}
+		li.spacer {
+			height: 10px;
 		}
 	}
 }
@@ -41,6 +54,8 @@ ul.mainmenu {
 	.menu-toggle {
 		display: block;
 		cursor: pointer;
+		width: 32px;
+    text-align: center;
 		i {
 			font-size: 36px;
 			color: #fff;
@@ -75,8 +90,8 @@ ul.mainmenu {
 			}
 			a[href] {
 				color: #fff;
-				font-size: 21px;
-				text-transform: none;
+				font-size: 18px;
+				text-transform: uppercase;
 				&:hover{
 					text-decoration: none;
 				}

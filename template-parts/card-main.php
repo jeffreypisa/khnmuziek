@@ -39,10 +39,10 @@
 					  <div class="form-group m-0">
 						  <div class="row">
 							  <div class="col">
-								  <button type="submit" class="btn btn-primary btn-block">Login</button>
+								  <a href="account.php" class="btn btn-primary btn-block">Login</a>
 							  </div>
 							  <div class="col-auto d-flex align-items-center">
-							    <a href="" class="btn-link"> Wachtwoord vergeten </a>
+							    <a href="" class="btn btn-link"> Wachtwoord vergeten </a>
 							  </div>
 						  </div>
 					  </div>

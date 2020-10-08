@@ -2,6 +2,7 @@ import $ from "jquery";
 import bootstrap from "bootstrap";
 
 import { scrollto } from './scripts/scrollto.js';
+import { collapsecard } from './scripts/collapsecard.js';
 
 // Init plugins
 import { matchheight_init } from 'scripts/matchheight.js';
@@ -13,6 +14,7 @@ $( document ).ready(function() {
 	$(".menu-toggle").on('click', function(){
 	  $("ul.mainmenu").toggleClass("show");
 	});
+	collapsecard();
 	scrollto();
 });
 

@@ -11,11 +11,10 @@
   <body>
 	  <div class="container">
 		  <div class="row">
-			  <div class="col-md">
-			  </div>
+			  <div class="col-md"></div>
 			  <div class="col-md">
 				  <ul class="mainmenu">
-					  <li class="d-sm-none text-white"> 
+					  <li class="head d-sm-none text-white"> 
 					  	<div class="row">
 						  	<div class="col">
 									<h2> KHN Muziek </h2>
@@ -38,6 +37,11 @@
 						  </a>
 					  </li>
 					  <li>
+						  <a href="account.php">
+							  Account
+						  </a>
+					  </li>
+					  <li>
 						  <a href="sonos.php">
 							  SONOS
 						  </a>
@@ -47,29 +51,36 @@
 							  FAQ
 						  </a>
 					  </li>
+					  <li class="spacer d-sm-none"></li>
 					  <li class="d-sm-none"> 
-					  	<a href="">
+					  	<a href="sonos.php">
 						  	Algemene voorwaarden
 						  </a> 
 					  </li>
 						<li class="d-sm-none"> 
-							<a href="">
+							<a href="sonos.php">
 								Privacy
 							</a> 
 						</li>
 						<li class="d-sm-none"> 
-							<a href="">
+							<a href="sonos.php">
 								Colofon
 							</a> 
 						</li>
 				  </ul>
 			  </div>
 		  </div>
-		  <div class="row">
-			  <div class="col-md">
+		  <div class="row justify-content-center">
+			  <div class="col-md-6 card-left">
+				  <a class="show-card-right js-show-card-right d-none">
+						<i class="fal fa-chevron-double-right"></i>
+				  </a>
 		    	<?php include 'template-parts/card-main.php' ?>
 			  </div>
-			  <div class="col-md">
+			  <div class="col-md-6 card-right">
+				  <a class="hide-card-right js-hide-card-right d-none d-md-block">
+					  <i class="fal fa-times"></i>
+				  </a>
 		    	<?php include 'template-parts/card-content-abonnementen.php' ?>
 			  </div>
 		  </div>

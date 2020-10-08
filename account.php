@@ -37,7 +37,7 @@
 							  Abonnementen
 						  </a>
 					  </li>
-					  <li>
+					  <li class="active">
 						  <a href="account.php">
 							  Account
 						  </a>
@@ -47,7 +47,7 @@
 							  SONOS
 						  </a>
 					  </li>
-					  <li class="last active">
+					  <li class="last">
 						  <a href="faq.php">
 							  FAQ
 						  </a>
@@ -76,13 +76,13 @@
 				  <a class="show-card-right js-show-card-right d-none">
 						<i class="fal fa-chevron-double-right"></i>
 				  </a>
-		    	<?php include 'template-parts/card-main.php' ?>
+		    	<?php include 'template-parts/card-main-demo.php' ?>
 			  </div>
 			  <div class="col-md-6 card-right">
 				  <a class="hide-card-right js-hide-card-right d-none d-md-block">
 					  <i class="fal fa-times"></i>
 				  </a>
-		    	<?php include 'template-parts/card-content-faq.php' ?>
+		    	<?php include 'template-parts/card-content-account.php' ?>
 			  </div>
 		  </div>
 	  </div>
