@@ -12,7 +12,7 @@ export function scrollto() {
   if ($(window).width() < 992) {
     if (window.location.search.indexOf('scrolltocontent') > -1) {
 	    $('html, body').animate({
-	      scrollTop: $('#content').offset().top - 30
+	      scrollTop: $('#content').offset().top
 	    }, 500, 'swing');
 		} 
   }
