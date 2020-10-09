@@ -48,11 +48,11 @@
 	    	<div class="col-4 d-flex align-items-center">
 		    	<img src="dist/images/horeca_nederland.png" alt="horeca_nederland" width="109" height="134" >
 	    	</div>
-	    	<div class="col d-flex align-items-center">
-		    	<div class="info">
+	    	<div class="col-8 d-flex align-items-center">
+		    	<div class="info" data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
 			    	<h5 class="border-bottom-red"> Presenteert: </h5>
-			    	<h2 class="h1 mb-0"> ROADS </h2>
-			    	<h5> Ella </h5>
+			    	<h2 class="h1 mb-0 text-ellipsis"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+			    	<h5 class="text-ellipsis"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
 		    	</div>
 	    	</div>
 	  	</div>
