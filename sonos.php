@@ -11,74 +11,20 @@
   <body>
 	  <div class="container">
 		  <div class="row">
-			  <div class="col-md">
+			  <div class="col-lg-6">
 			  </div>
-			  <div class="col-md">
-				  <ul class="mainmenu">
-					  <li class="head d-sm-none text-white"> 
-					  	<div class="row">
-						  	<div class="col">
-									<h2> KHN Muziek </h2>
-						  	</div>
-						  	<div class="col-auto">
-							  	<a class="menu-toggle">
-							  		<i class="fal fa-times" aria-hidden="true"></i>
-							  	</a>
-						  	</div>
-					  	</div>
-					  </li>
-					  <li><!-- add class 'active' for correct styling active menu item -->
-						  <a href="index.php">
-							  Welkom
-						  </a>
-					  </li>
-					  <li>
-						  <a href="abonnementen.php">
-							  Abonnementen
-						  </a>
-					  </li>
-					  <li>
-						  <a href="account.php">
-							  Account
-						  </a>
-					  </li>
-					  <li class="active">
-						  <a href="sonos.php">
-							  SONOS
-						  </a>
-					  </li>
-					  <li class="last">
-						  <a href="faq.php">
-							  FAQ
-						  </a>
-					  </li>
-					  <li class="spacer d-sm-none"></li>
-					  <li class="d-sm-none"> 
-					  	<a href="sonos.php">
-						  	Algemene voorwaarden
-						  </a> 
-					  </li>
-						<li class="d-sm-none"> 
-							<a href="sonos.php">
-								Privacy
-							</a> 
-						</li>
-						<li class="d-sm-none"> 
-							<a href="sonos.php">
-								Colofon
-							</a> 
-						</li>
-				  </ul>
+			  <div class="col-lg-6">
+				  <?php $activepage = 'sonos'; include 'template-parts/menu.php' ?>
 			  </div>
 		  </div>
 		  <div class="row justify-content-center">
-			  <div class="col-md-6 card-left">
+			  <div class="col-lg-6 card-left">
 				  <a class="show-card-right js-show-card-right d-none">
 						<i class="fal fa-chevron-double-right"></i>
 				  </a>
 		    	<?php include 'template-parts/card-main.php' ?>
 			  </div>
-			  <div class="col-md-6 card-right">
+			  <div class="col-lg-6 card-right">
 				  <a class="hide-card-right js-hide-card-right d-none d-md-block">
 					  <i class="fal fa-times"></i>
 				  </a>

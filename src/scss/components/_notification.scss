@@ -5,6 +5,26 @@
 	left: 0;
 	right: 0;
 	z-index: 3;
+	display: block;
+	transition: 0.2s ease-in-out;	
+	.underline {
+		position: relative;
+		display: inline-block;
+		&:after {
+	    position: absolute;
+	    bottom: 0px;
+	    left: 0;
+	    border-radius: 3px;
+	    height: 2px;
+	    right: 0;
+	    background: #fff;
+	    content: "";
+		}
+	}
+	&:hover {
+		background: darken($red, 10%);
+		text-decoration: none;
+	}
 }
 
 @include media-breakpoint-down(xs) {

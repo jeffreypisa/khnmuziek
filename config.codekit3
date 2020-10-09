@@ -25,6 +25,14 @@
 		"oAP": "/account.php",
 		"oF": 0
 		},
+	"/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content.php",
+		"oF": 0
+		},
 	"/demo.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1832,6 +1840,14 @@
 		"oAP": "/template-parts/card-content-account.php",
 		"oF": 0
 		},
+	"/template-parts/card-content-algemeen.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/card-content-algemeen.php",
+		"oF": 0
+		},
 	"/template-parts/card-content-demo.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1886,6 +1902,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/footer.php",
+		"oF": 0
+		},
+	"/template-parts/menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/menu.php",
 		"oF": 0
 		},
 	"/template-parts/notification.php": {

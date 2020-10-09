@@ -18,14 +18,14 @@
 	      <label for="Lidnummer" class="d-none">Lidnummer</label>
 	      <input type="text" class="form-control" placeholder="Aantal licenties" id="aantallicenties" value="" required>
 	    </div>
-	    <div class="col-md-auto mb-3">
+	    <div class="col-auto mb-3">
 	      <label for="Postcode" class="d-none">Postcode</label>
 	      <input type="submit" class="btn btn-primary" value="Afrekenen">
 	      <div class="invalid-feedback"><!-- add class 'd-block' to show validation message -->
 	        Onjuiste postcode
 	      </div>
 	    </div>
-	    <div class="col-md-auto mb-3">
+	    <div class="col-auto mb-3">
 	      <label for="Postcode" class="d-none">Terug</label>
 	      <a class="btn btn-link" href="">Terug</a>
 	    </div>

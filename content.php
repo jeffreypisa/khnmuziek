@@ -9,13 +9,12 @@
     <title>KHN Muziek</title>
   </head>
   <body>
-	  <?php include 'template-parts/notification.php' ?>
 	  <div class="container">
 		  <div class="row">
 			  <div class="col-lg-6">
 			  </div>
 			  <div class="col-lg-6">
-				  <?php $activepage = 'demo'; include 'template-parts/menu.php' ?>
+				  <?php $activepage = 'voorwaarden'; include 'template-parts/menu.php' ?>
 			  </div>
 		  </div>
 		  <div class="row justify-content-center">
@@ -23,13 +22,13 @@
 				  <a class="show-card-right js-show-card-right d-none">
 						<i class="fal fa-chevron-double-right"></i>
 				  </a>
-		    	<?php include 'template-parts/card-main-demo.php' ?>
+		    	<?php include 'template-parts/card-main.php' ?>
 			  </div>
 			  <div class="col-lg-6 card-right">
 				  <a class="hide-card-right js-hide-card-right d-none d-md-block">
 					  <i class="fal fa-times"></i>
 				  </a>
-		    	<?php include 'template-parts/card-content-demo.php' ?>
+		    	<?php include 'template-parts/card-content-algemeen.php' ?>
 			  </div>
 		  </div>
 	  </div>

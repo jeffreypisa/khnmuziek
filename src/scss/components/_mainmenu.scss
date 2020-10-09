@@ -37,7 +37,7 @@ ul.mainmenu {
 	}
 	&.show {
 		li.head {
-			margin-bottom: 20px;
+			margin-bottom: 30px;
 		}
 		li.spacer {
 			height: 10px;
@@ -73,7 +73,7 @@ ul.mainmenu {
 		z-index: 4;
 		padding: 20px 30px;
 		margin: 0;
-		background: rgba($blue, 0.96);
+		background: $blue;
 		opacity: 0;
 		transition: opacity 0.4s ease-in-out;
 		z-index: -100;

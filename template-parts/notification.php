@@ -1,5 +1,5 @@
-<div class="notification bg-red text-white">
+<a href="abonnementen.php?scrolltocontent" class="notification bg-red text-white">
 	<div class="container">
-		Dit is een demo | Betaald abonnement? <a href="#" class="btn-link btn-underline"> Klik hier </a>
+		Dit is een demo | Betaald abonnement? <span class="underline"> Klik hier </span>
 	</div>
-</div>
+</a>

@@ -5,6 +5,17 @@ a[href]:not(.btn) {
 	}
 }
 
+[data-toggle="collapse"] {
+	i {
+		transition: 0.2s ease-in-out;
+	}
+	&[aria-expanded="true"] {
+		i {
+			transform: rotate(180deg);
+		}
+	}
+}
+
 .btn {
 	border: 0;
 	border-radius: 6px;
@@ -15,26 +26,9 @@ a[href]:not(.btn) {
 	color: $red;
 }
 
-.btn-link.btn-underline {
-	position: relative;
-	display: inline-block;
-	&:after {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    border-radius: 3px;
-    height: 2px;
-    right: 0;
-    background: #fff;
-    content: "";
-		transition: 0.2s ease-in-out;
-	}
-	&:hover {
+.no-line {
+	&:hover, &:focus, &:active, &:target {
 		text-decoration: none;
-		&:after {
-			bottom: -4px;
-			opacity: 0.5;
-		}
 	}
 }
 
@@ -51,7 +45,7 @@ a[href]:not(.btn) {
 		bottom: 0;
 		right: 14px;
 		content: '\f101';
-		font-weight: 900;
+		font-weight: 300;
 	}
 }
 
@@ -90,7 +84,7 @@ a[href]:not(.btn) {
 	}
 	img {
 		opacity: 0.5;
-		height: 50px;
+		height: 40px;
 		width: auto;
 	}
 	.btn.active {

@@ -7,6 +7,9 @@
   text-align: center;
   color: $blue;
   cursor: pointer;
+  i {
+  	font-size: 30px;
+  }
   &:hover {
 	  color: $red;
   }

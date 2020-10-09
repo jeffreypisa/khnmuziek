@@ -40,7 +40,7 @@
 			<i class="fal fa-play-circle"></i>
 			<i class="fal fa-pause-circle d-none" aria-hidden="true"></i>
 		</a>
-		<a href="#" class="card-main-actions">Uitloggen</a>
+		<a href="welkom.php" class="card-main-actions">Uitloggen</a>
 	</div>
 	<div class="card-body bg-white card-main-middle d-flex align-items-center">
 		<div class="w-100">
