@@ -59,7 +59,7 @@
   	</div>
 	</div>
 	<div class="card-body card-main-bottom text-white text-center">
-		<a href="#content" class="d-md-none js-scrollto">
+		<a href="#content" class="d-lg-none js-scrollto">
 			<i class="fal fa-chevron-down"></i>
 		</a>
 	</div>

@@ -10,7 +10,7 @@
 		  	</a>
 	  	</div>
   	</div>
-		<br><br>
+		<br>
 		<a href="demo.php" class="btn btn-lg btn-primary btn-block btn-arrow">Demo luisteren? </a>
 		<a href="abonnementen.php?scrolltocontent" class="btn btn-lg btn-primary btn-block btn-arrow">Bestel KHN Muziek </a>
 	</div>

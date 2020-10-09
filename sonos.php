@@ -25,7 +25,7 @@
 		    	<?php include 'template-parts/card-main.php' ?>
 			  </div>
 			  <div class="col-lg-6 card-right">
-				  <a class="hide-card-right js-hide-card-right d-none d-md-block">
+				  <a class="hide-card-right js-hide-card-right d-none d-lg-block">
 					  <i class="fal fa-times"></i>
 				  </a>
 		    	<?php include 'template-parts/card-content-sonos.php' ?>
