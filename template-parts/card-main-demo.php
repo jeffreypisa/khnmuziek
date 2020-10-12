@@ -46,7 +46,7 @@
 		<div class="w-100">
 	  	<div class="row">
 	    	<div class="col-4 d-flex align-items-center">
-		    	<img src="dist/images/horeca_nederland.png" alt="horeca_nederland" width="109" height="134" >
+		    	<img src="dist/images/horeca_nederland.svg" alt="horeca_nederland" width="109" height="134" >
 	    	</div>
 	    	<div class="col-8 d-flex align-items-center">
 		    	<div class="info" data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">

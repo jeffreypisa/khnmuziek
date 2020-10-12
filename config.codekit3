@@ -156,16 +156,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/dist/images/horeca_nederland.png": {
-		"ft": 32768,
-		"iS": 5095,
-		"oA": 0,
-		"oAP": "/dist/images/horeca_nederland.png",
+	"/dist/images/horeca_nederland.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/horeca_nederland.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/dist/images/ideal.png": {
 		"ft": 32768,
@@ -1584,16 +1583,15 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/src/images/horeca_nederland.png": {
-		"ft": 32768,
-		"iS": 15413,
-		"oA": 0,
-		"oAP": "/dist/images/horeca_nederland.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+	"/src/images/horeca_nederland.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/src/images/horeca_nederland.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/images/ideal.png": {
 		"ft": 32768,
