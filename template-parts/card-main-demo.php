@@ -1,4 +1,4 @@
-<div class="card card-main bg-blue">
+<div class="card card-main card-hasnotfication bg-blue">
 	<div class="card-body card-main-top text-white">
 		<div class="select-channel">
 			<div class="row d-sm-none">
@@ -53,13 +53,27 @@
 			    	<h5 class="border-bottom-red"> Presenteert: </h5>
 			    	<h2 class="h1 mb-0 text-ellipsis"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
 			    	<h5 class="text-ellipsis"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+			    	<div class="leuknietleuk">
+				    	<label class="thumbs leuk">
+							  <input type="radio" checked="checked" name="radio">
+							  <span class="checkmark">
+							  	<i class="fal fa-thumbs-up"></i>
+							  </span>
+							</label>
+							<label class="thumbs nietleuk">
+							  <input type="radio" name="radio">
+							  <span class="checkmark">
+							  	<i class="fal fa-thumbs-down"></i>
+							  </span>
+							</label>
+			    	</div>
 		    	</div>
 	    	</div>
 	  	</div>
   	</div>
 	</div>
-	<div class="card-body card-main-bottom text-white text-center">
-		<a href="#content" class="d-lg-none js-scrollto">
+	<div class="card-body card-main-bottom text-white text-center d-flex align-items-center">
+		<a href="#content" class="d-block w-100 d-lg-none js-scrollto">
 			<i class="fal fa-chevron-down"></i>
 		</a>
 	</div>

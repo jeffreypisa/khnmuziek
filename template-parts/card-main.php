@@ -51,8 +51,8 @@
 	  	</div>
   	</div>
 	</div>
-	<div class="card-body card-main-bottom text-white text-center">
-		<a href="#content" class="d-lg-none js-scrollto">
+	<div class="card-body card-main-bottom text-white text-center d-flex align-items-center">
+		<a href="#content" class="d-block w-100 d-lg-none js-scrollto">
 			<i class="fal fa-chevron-down"></i>
 		</a>
 	</div>

@@ -149,6 +149,11 @@
 @include media-breakpoint-down(xs) {
 	.card {
 		&.card-main {
+			min-height: 100vh;
+			min-height: calc(var(--vh, 1vh) * 100);
+			&.card-hasnotfication {
+				min-height: calc(var(--vh, 1vh) * 100 - 44px);
+			}
 			.card-main-top {
 				.select-channel {
 					position: absolute;
@@ -178,6 +183,8 @@
 	}
 }
 
+
+
 @include media-breakpoint-up(sm) {
 	.card {
 		&.card-main {
@@ -194,6 +201,9 @@
 	.card {
 		&.card-main {
 			min-height: calc(100vh - 190px);
+			&.card-hasnotfication {
+				min-height: calc(100vh - 190px);
+			}
 			.card-main-top {			
 				height: 240px;
 				max-height: 240px;
@@ -214,6 +224,9 @@
 	.card {
 		&.card-main {
 			min-height: calc(100vh - 230px);
+			&.card-hasnotfication {
+				min-height: calc(100vh - 230px);
+			}
 			.card-main-middle {
 				min-height: 255px;
 			}

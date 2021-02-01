@@ -1,0 +1,70 @@
+.leuknietleuk {
+	margin: 20px 0 0;
+	.thumbs {
+	  display: inline-block;
+	  position: relative;
+	  margin-bottom: 0;
+	  height: 70px;
+    width: 70px;
+	  cursor: pointer;
+	  font-size: 22px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  &:first-child {
+	  	margin-right: 40px;
+	  }
+	}
+	
+	/* Hide the browser's default radio button */
+	.thumbs input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	}
+	
+	/* Create a custom radio button */
+	.checkmark {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  height: 70px;
+	  width: 70px;
+	  background-color: $lightgrey;
+	  border-radius: 50%;
+	  i {
+		  display: block;
+		  text-align: center;
+		  line-height: 70px;
+		  color: $blue;
+		  font-size: 30px;
+	  }
+	}
+	
+	/* On mouse-over, add a grey background color */
+	.thumbs:hover input ~ .checkmark {
+	  background-color: #ccc;
+	}
+	
+	/* When the radio button is checked, add a blue background */
+	.thumbs input:checked ~ .checkmark {
+	  background-color: $blue;
+	  i {
+		  color: #fff;
+	  }
+	}
+	
+	/* Create the indicator (the dot/circle - hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+	
+	/* Show the indicator (dot/circle) when checked */
+	.thumbs input:checked ~ .checkmark:after {
+	  display: block;
+	}
+	
+}
